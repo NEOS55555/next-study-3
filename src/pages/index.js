@@ -8,6 +8,8 @@ function HomePage({num, addCountAct, subCountAct}) {
   	<p>{num}</p>
     <Button onClick={subCountAct} >-</Button>
     <Button onClick={addCountAct} >+</Button>
+    <br/>
+    <img src="/static/1.png" alt=""/>
   </div>
 }
 
