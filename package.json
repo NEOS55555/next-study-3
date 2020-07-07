@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^4.4.1",
+    "next": "^9.4.4",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "sass": "^1.26.9"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "styled-jsx-plugin-sass": "^1.0.0"
+  }
+}
