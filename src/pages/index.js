@@ -1,4 +1,5 @@
 import Router from 'next/router'
+import Link from 'next/link'
 import { connect } from 'react-redux'
 import { addCountAct, subCountAct } from '../store/actions'
 import { Button } from 'antd';
@@ -12,6 +13,7 @@ function HomePage({num, addCountAct, subCountAct, list}) {
     <Button onClick={subCountAct} >-</Button>
     <Button onClick={addCountAct} >+</Button>
     <br/>
+    <Link href="/one">to one</Link>
     <Child list={list} />
   </div>
 }
