@@ -1,9 +1,9 @@
 import Router from 'next/router'
 import { connect } from 'react-redux'
-import { addCountAct, subCountAct } from '@/store/actions'
+import { addCountAct, subCountAct } from '../store/actions'
 import { Button } from 'antd';
-import Child from '@/components/Child'
-import url from '@/constants/url'
+import Child from '../components/Child'
+import url from '../constants/url'
 import axios from 'axios'
 
 function HomePage({num, addCountAct, subCountAct, list}) {

@@ -1,4 +1,4 @@
-import { ADD_COUNT, SUB_COUNT } from '@/constants'
+import { ADD_COUNT, SUB_COUNT } from '../../constants'
 
 const initState = {
   num: 0,
